@@ -25,14 +25,17 @@ body {
 	text-align: center;
 }
 
+.container h2 {
+	margin-bottom: 50px;
+}
+
 .progress-container {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
 	max-width: 100vw;
-	width: 350px;
+	width: 345px;
 	position: relative;
-
 }
 
 .progress-container::before {
@@ -89,13 +92,13 @@ body {
 	font-family: inherit;
 }
 
-.btn:active{
-	transform: scale(0.98)
+.btn:active {
+	transform: scale(0.98);
 }
 
 .btn:focus {
 	outline: 0;
-} 
+}
 
 .btn:disabled {
 	background-color: var(--line-gray);
